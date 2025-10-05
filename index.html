@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Tênis</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r from-[#000000] to-[#000000] text-white font-sans">
+
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-10 py-6">
+    <nav class="space-x-6 text-sm">
+      <a href="#" class="hover:text-gray-200">Home</a>
+      <a href="#" class="hover:text-gray-200">Produtos</a>
+      <a href="#" class="hover:text-gray-200">Lançamentos</a>
+    </nav>
+
+    <div class="flex items-center space-x-4">
+      <button class="hover:text-gray-200">🛒</button>
+      <button class="hover:text-gray-200">🔍</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-16">
+
+    <!-- Texto -->
+    <div class="md:w-1/2 space-y-6">
+      <h1 class="text-5xl font-light leading-tight">
+        Seu estilo<br>
+        seus tênis<br>
+        <span class="font-semibold">sua vez de brilhar.</span>
+      </h1>
+      <p class="text-sm text-gray-200 max-w-md">
+        Descubra os tênis que definem seu estilo: dos clássicos aos lançamentos mais exclusivos, tudo para você se destacar.
+      </p>
+      <button class="mt-4 px-6 py-3 bg-white text-[#b1493b] font-semibold rounded-full hover:bg-gray-200 transition">
+        Ver Coleção
+      </button>
+    </div>
+
+    <!-- Imagem -->
+    <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+      <img src="tenis.png" alt="Tênis estiloso" class="w-96 drop-shadow-2xl">
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
